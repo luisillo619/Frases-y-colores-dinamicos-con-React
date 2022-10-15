@@ -5,7 +5,7 @@ function Pie({color}) {
   
   return (
     <div>
-      <p className="pie" style={{ color: `white`}}>Echo por Carlos</p>
+      <p className="pie" style={{ color: `white`}}>Hecho por Carlos</p>
     </div>
   )
 }

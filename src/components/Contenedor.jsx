@@ -34,16 +34,16 @@ const Contenedor = () => {
 
   const handleClickfrase = (id) => {
     //  console.log(id)
-    if (id) {
+    if (id <= 100) {
       let hola = frases.frases.filter((e) => e.id === id);
-      // console.log(hola[0]);
+      console.log(hola[0]);
       setTexto({
         id: hola[0].id + 1,
         autor: hola[0].author,
         quote: hola[0].quote,
       });
     }
-    if (id === 100) {
+   else{
       setTexto({
         quote:
           "Life isn’t about getting and having, it’s about giving and being",
